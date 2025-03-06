@@ -1,0 +1,122 @@
+Tech Stacks
+
+1. Systems Administrator
+2. C# Backend
+3. Microsoft Software Developer
+4. Azure Cloud Dev
+5. 
+6. 
+
+
+1. Systems Administrator (SysAdmin) 
+
+1️⃣ Operating Systems
+Windows Server (Active Directory, Group Policy, WSUS, PowerShell)
+Linux (Ubuntu, CentOS, RHEL, Debian – CLI, Bash scripting, systemd, users & permissions)
+MacOS (if your org supports it)
+2️⃣ Networking & Security
+Networking Basics (Subnetting, DNS, DHCP, TCP/IP, VPNs, VLANs, Firewalls)
+Firewall & Security (Sophos, UFW, iptables, pfSense, OPNsense)
+SIEM & Monitoring (Splunk, Graylog, ELK Stack, OSSEC)
+Authentication & Access Management (LDAP, RADIUS, SAML, OAuth, IAM)
+3️⃣ Virtualization & Containers
+Hypervisors (VMware ESXi, Microsoft Hyper-V, Proxmox, KVM)
+Containers & Orchestration (Docker, Podman, Kubernetes)
+4️⃣ Cloud Computing & Automation
+Cloud Platforms (AWS, Azure, GCP – focus on Azure for your career goals)
+Infrastructure as Code (IaC) (Terraform, Ansible, CloudFormation)
+Automation & Scripting (PowerShell, Bash, Python)
+CI/CD & DevOps Tools (Jenkins, GitHub Actions, Azure DevOps)
+5️⃣ Storage & Backup
+File Systems & Storage (RAID, NAS, SAN, ZFS, LVM)
+Backup Solutions (Veeam, Bacula, Duplicati, Rsync, Cloud Backup)
+6️⃣ Logging, Monitoring & Performance Tuning
+System Monitoring (Zabbix, Nagios, Prometheus, Grafana)
+Log Management (Syslog, ELK Stack, Splunk)
+Performance Tuning (CPU, RAM, Disk, Network Optimization)
+7️⃣ Identity & Access Management
+Windows Active Directory (AD)
+Azure Active Directory (AAD)
+IAM Roles & Policies (Azure, AWS)
+
+
+---------------------------------------------
+2. C# Backend
+
+
+---------------------------------------------
+Python Backend 
+
+
+---------------------------------------------
+5. AWS Cloud Dev 
+
+
+---------------------------------------------
+4. Azure Cloud Dev
+
+
+
+---------------------------------------------
+Simple Tech Stack for a Junior C# Backend & Azure Cloud Developer
+
+Programming Language: C#
+Frameworks: .NET Core, ASP.NET Core (MVC & Web API)
+Database: Microsoft SQL Server, Azure SQL Database
+ORM: Entity Framework Core
+Version Control: Git, GitHub or Azure Repos
+Cloud: Microsoft Azure
+DevOps & CI/CD: Azure DevOps, GitHub Actions
+Containerization: Docker, Kubernetes (Azure Kubernetes Service - AKS)
+Infrastructure as Code: PowerShell, Azure CLI, Terraform (Optional)
+Testing: xUnit, NUnit
+IDE: Visual Studio, Visual Studio Code
+
+
+---------------------------------------------
+3. Microsoft Software Developer
+
+1. Programming Languages
+C# – The primary language for Microsoft development, used in web, desktop, and cloud applications.
+VB.NET – Less common but still used in some legacy applications.
+F# – Functional-first programming language (less common).
+JavaScript/TypeScript – Often used for front-end development with Microsoft frameworks.
+2. Frameworks & Libraries
+.NET (Core & Framework) – A powerful framework for building web, desktop, and cloud applications.
+ASP.NET (MVC & Web API) – For developing web applications and APIs.
+Blazor – A newer Microsoft framework for building interactive web UIs using C# instead of JavaScript.
+Entity Framework (EF Core) – An ORM (Object-Relational Mapping) for database interaction.
+WinForms & WPF – Used for Windows desktop application development.
+3. Database & Storage
+Microsoft SQL Server – The main relational database solution.
+Azure SQL Database – A cloud-based version of SQL Server.
+Cosmos DB – A globally distributed NoSQL database on Azure.
+4. Cloud & DevOps
+Microsoft Azure – Cloud computing platform with various services.
+Azure DevOps – CI/CD pipelines, version control, and project management.
+Docker & Kubernetes – Containerization and orchestration (often with Azure Kubernetes Service - AKS).
+PowerShell & Azure CLI – Scripting for automation and infrastructure management.
+5. Web Development
+HTML, CSS, JavaScript – Essential for front-end development.
+TypeScript – Used with Angular, React, or Blazor for modern web apps.
+React.js, Angular, or Blazor – Common front-end frameworks.
+6. Tools & IDEs
+Visual Studio – The primary IDE for .NET development.
+Visual Studio Code – A lightweight, flexible code editor.
+SQL Server Management Studio (SSMS) – For database management.
+Postman/Swagger – For API testing and documentation.
+Git & Azure Repos – Version control.
+7. Other Microsoft Technologies
+Power Platform – Power Apps, Power Automate, and Power BI.
+Microsoft Office 365 & SharePoint – Often integrated with enterprise solutions.
+Would you like help setting up a development environment for .NET? 🚀
+
+
+
+
+============================================================================================
+
+
+
+
+
