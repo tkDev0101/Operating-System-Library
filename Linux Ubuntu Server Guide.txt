@@ -4,7 +4,11 @@ Linux Ubuntu Server && Linux Ubuntu Guide
 ========================================================================================
 Linux Ubuntu Server Guide
 
+About
 
+
+
+---------------------------------------------
  - Here are some essential commands to navigate the system:
 
 pwd           # Shows your current location in the system
@@ -17,7 +21,8 @@ rm -r dir     # Deletes a directory and its contents
 
 
 ---------------------------------------------
- - User Commands
+ - User Commands:
+
 whoami         # Shows your current username
 id             # Displays your user and group IDs
 adduser newuser  # Creates a new user
@@ -25,11 +30,11 @@ passwd newuser   # Changes a user's password
 deluser newuser  # Deletes a user
 
 
+---------------------------------------------
  - Understanding File Permissions:
 ls -l file   # View file permissions
 chmod 755 file  # Change file permissions
 chown user file  # Change file ownership
-
 
 
 ---------------------------------------------
@@ -51,7 +56,6 @@ Want to install a web server? Try this:
 
 ---------------------------------------------
  - Networking Basics
-A server without networking is like a car without wheels—it won’t go anywhere. Here are some essential network commands:
 
 ip a               # Shows IP addresses
 ip route           # Displays network routes
@@ -64,6 +68,7 @@ These commands help you diagnose and manage network connections on your server.
 
 ---------------------------------------------
  - Monitoring System Performance:
+
 top         # Shows active processes
 htop        # A better, interactive process viewer (install using `apt install htop`)
 free -h     # Shows memory usage
@@ -72,8 +77,7 @@ uptime      # Shows how long the server has been running
 
 
 ---------------------------------------------
- - Securing Your Server with a Firewall (UFW)
-Ubuntu comes with UFW (Uncomplicated Firewall) to help you manage access to services.
+ - Securing Your Server with a Firewall (UFW) (Uncomplicated Firewall):
 
 ufw status           # Checks if the firewall is enabled
 ufw allow ssh        # Allows SSH access
@@ -83,14 +87,16 @@ ufw disable          # Deactivates the firewall
 
 
 ---------------------------------------------
- - Server Updates
+ - Server Updates:
+
 apt update && apt upgrade -y  # Updates the system packages
 reboot                        # Restarts the server
 shutdown -h now               # Shuts down the server
 
 
 ---------------------------------------------
- - Remote Access with SSH
+ - Remote Access with SSH:
+
 SSH (Secure Shell) lets you control your server from another computer. 
 This is especially useful for managing cloud servers.
 
@@ -108,12 +114,15 @@ Example: ssh user@192.168.1.100
 Linux Ubuntu Guide
 
 
+---------------------------------------------
 Navigating Linux (Basic Commands)
 
 - Opening the Terminal
 Press Ctrl + Alt + T OR
 
-- Basic Commands
+---------------------------------------------
+- Basic Commands:
+
 pwd → Show current directory.
 ls → List files in the current directory.
 cd folder_name → Change directory.
@@ -131,7 +140,8 @@ less filename → View file one page at a time.
 
 
 
- - Updating & Upgrading Ubuntu
+---------------------------------------------
+ - Updating & Upgrading Ubuntu:
 
 Method 1: Using the Terminal (Recommended)
 
@@ -166,9 +176,10 @@ Enter your password when prompted.
 Restart if required.
 
 
- - Managing Users & Permissions
+---------------------------------------------
+ - Managing Users & Permissions:
 
-User Management
+ - User Management:
 
 whoami → Shows the currently logged-in user.
 sudo adduser username → Create a new user.
@@ -177,14 +188,16 @@ su - username → Switch user.
 sudo deluser username → Remove a user.
 
 
- - File Permissions
+---------------------------------------------
+ - File Permissions:
 
 ls -l → View file permissions.
 chmod 755 filename → Change file permissions.
 sudo chown user:group filename → Change file ownership.
 
 
- - Installing and Managing Software
+---------------------------------------------
+ - Installing and Managing Software:
 
 sudo apt install package_name -y → Install software.
 sudo apt remove package_name -y → Uninstall software.
@@ -192,7 +205,8 @@ apt search package_name → Search for software.
 dpkg --list → List installed software.
 
 
- - System Monitoring & Logs
+---------------------------------------------
+ - System Monitoring & Logs:
 
 df -h → Check disk space.
 free -h → Check memory usage.
@@ -200,7 +214,8 @@ top → Monitor system processes.
 sudo journalctl -xe → View system logs.
 
 
- - Introduction to Proxmox & Virtualization
+---------------------------------------------
+ - Introduction to Proxmox & Virtualization:
 
 What is Proxmox?
 Proxmox is an open-source virtualization platform used to run virtual machines (VMs) and containers.
@@ -214,6 +229,7 @@ Access the web interface by entering https://your-server-ip:8006 in a browser.
 Create and manage virtual machines.
 
 
+---------------------------------------------
  - Automating Updates:
 
 sudo apt install unattended-upgrades -y
