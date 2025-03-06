@@ -1,0 +1,217 @@
+Linux Ubuntu Server && Linux Ubuntu Guide
+
+
+========================================================================================
+Linux Ubuntu Server Guide
+
+Here are some essential commands to navigate the system:
+
+pwd           # Shows your current location in the system
+ls            # Lists the files and folders in the current directory
+cd folder     # Moves into a specific folder
+cd ..         # Moves up one level in the directory tree
+mkdir newdir  # Creates a new folder
+rm file       # Deletes a file
+rm -r dir     # Deletes a directory and its contents
+
+
+ - User Commands
+whoami         # Shows your current username
+id             # Displays your user and group IDs
+adduser newuser  # Creates a new user
+passwd newuser   # Changes a user's password
+deluser newuser  # Deletes a user
+
+
+ - Understanding File Permissions:
+ls -l file   # View file permissions
+chmod 755 file  # Change file permissions
+chown user file  # Change file ownership
+
+
+
+ - Installing and Managing Software (APT Package Manager)
+
+Ubuntu Server uses APT (Advanced Package Tool) to install and manage software. 
+It’s very similar to an app store, but everything is done through the command line.
+
+Essential Commands for Package Management:
+apt update             # Updates the list of available software
+apt upgrade            # Upgrades installed software to the latest versions
+apt install package    # Installs a new software package
+apt remove package     # Removes a software package
+apt search package     # Searches for available software
+
+Want to install a web server? Try this:
+ - apt install apache2 -y
+
+
+ - Networking Basics
+A server without networking is like a car without wheels—it won’t go anywhere. Here are some essential network commands:
+
+ip a               # Shows IP addresses
+ip route           # Displays network routes
+hostname -I        # Shows your server’s IP address
+ping google.com    # Tests if you have internet connectivity
+netstat -tulnp     # Lists open network ports
+
+These commands help you diagnose and manage network connections on your server.
+
+
+ - Monitoring System Performance:
+top         # Shows active processes
+htop        # A better, interactive process viewer (install using `apt install htop`)
+free -h     # Shows memory usage
+df -h       # Shows disk space usage
+uptime      # Shows how long the server has been running
+
+
+ - Securing Your Server with a Firewall (UFW)
+Ubuntu comes with UFW (Uncomplicated Firewall) to help you manage access to services.
+
+ufw status           # Checks if the firewall is enabled
+ufw allow ssh        # Allows SSH access
+ufw allow 80/tcp     # Allows HTTP traffic (for web servers)
+ufw enable           # Activates the firewall
+ufw disable          # Deactivates the firewall
+
+
+ - Server Updates
+apt update && apt upgrade -y  # Updates the system packages
+reboot                        # Restarts the server
+shutdown -h now               # Shuts down the server
+
+
+ - Remote Access with SSH
+SSH (Secure Shell) lets you control your server from another computer. 
+This is especially useful for managing cloud servers.
+
+ - To enable SSH on Ubuntu Server:
+apt install openssh-server -y
+systemctl enable ssh
+systemctl start ssh
+
+ - To connect from another computer:
+ssh username@server-ip
+Example: ssh user@192.168.1.100
+
+
+========================================================================================
+Linux Ubuntu Guide
+
+
+Navigating Linux (Basic Commands)
+
+- Opening the Terminal
+Press Ctrl + Alt + T OR
+
+- Basic Commands
+pwd → Show current directory.
+ls → List files in the current directory.
+cd folder_name → Change directory.
+mkdir new_folder → Create a new folder.
+touch file.txt → Create an empty file.
+rm file.txt → Delete a file.
+rmdir folder_name → Delete an empty folder.
+rm -r folder_name → Delete a folder and its contents.
+
+- Viewing File Contents
+cat filename → Show file content.
+nano filename → Open a file in the Nano text editor.
+less filename → View file one page at a time.
+
+
+
+
+ - Updating & Upgrading Ubuntu
+
+Method 1: Using the Terminal (Recommended)
+
+Step 1: Update the Package List
+sudo apt update
+Fetches the latest list of available updates.
+
+Step 2: Upgrade Installed Packages
+sudo apt upgrade -y
+Installs updates for all installed software.
+
+Step 3: Full System Upgrade (Optional)
+sudo apt full-upgrade -y
+Upgrades everything, including dependencies.
+
+Step 4: Clean Unnecessary Files
+sudo apt autoremove -y
+sudo apt clean
+Removes old, unused packages and clears the package cache.
+
+Step 5: Reboot the System
+sudo reboot
+Restart the system to apply updates properly.
+
+
+Method 2: Using the GUI (Graphical Interface)
+
+Open Software Updater.
+Wait for it to check for updates.
+Click Install Now if updates are available.
+Enter your password when prompted.
+Restart if required.
+
+
+ - Managing Users & Permissions
+
+User Management
+
+whoami → Shows the currently logged-in user.
+sudo adduser username → Create a new user.
+sudo usermod -aG sudo username → Grant admin privileges.
+su - username → Switch user.
+sudo deluser username → Remove a user.
+
+
+ - File Permissions
+
+ls -l → View file permissions.
+chmod 755 filename → Change file permissions.
+sudo chown user:group filename → Change file ownership.
+
+
+ - Installing and Managing Software
+
+sudo apt install package_name -y → Install software.
+sudo apt remove package_name -y → Uninstall software.
+apt search package_name → Search for software.
+dpkg --list → List installed software.
+
+
+ - System Monitoring & Logs
+
+df -h → Check disk space.
+free -h → Check memory usage.
+top → Monitor system processes.
+sudo journalctl -xe → View system logs.
+
+
+ - Introduction to Proxmox & Virtualization
+
+What is Proxmox?
+Proxmox is an open-source virtualization platform used to run virtual machines (VMs) and containers.
+It is a great alternative to VMware and VirtualBox.
+
+Installing Proxmox
+Download Proxmox from proxmox.com.
+Create a bootable USB and boot from it.
+Follow the installation instructions.
+Access the web interface by entering https://your-server-ip:8006 in a browser.
+Create and manage virtual machines.
+
+
+ - Automating Updates:
+
+sudo apt install unattended-upgrades -y
+sudo dpkg-reconfigure --priority=low unattended-upgrades
+
+
+========================================================================================
+
+
