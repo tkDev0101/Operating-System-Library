@@ -1,71 +1,3 @@
-prompt
-
-okay so consider the following roles and tech stacks
-
-my goal is to go from an IT Tech support Intern, cover my networking fudementals and know how a system operates by learning the system administrator stuff
-
-learn the C# Backend stuff or the Microsoft Software Developer stuff, which ever is more relevant to come first,
-then once I've learned that enough at an intermediate level, then i learn Azure and cloud computing stuff
-
- and at the end of the day become a Junior C# Backend & Azure Cloud Developer
-
-path
-1. Systems Administrator
-2. C# Backend
-3. Microsoft Software Developer
-4. Azure Cloud Dev
-7. Junior C# Backend & Azure Cloud Developer
-
-
-So i want to cover most, not all of the technologies covered by these various roles, 
-I know i wont cover them all but I'll cover the important and core ones for that role, 
-Or better yet you tell me which technologies to cover 
-in these tech stacks so that i can become a Junior C# Backend & Azure Cloud Developer
-
-
-And then once you're done with that do this:
-
-so you know my goal, give me a breakdown of all the topics i need to cover
-
-FOR EXAMPLE
-
-CompTIA A+ Core 1 (220-1101) - Focus on Hardware & Networking
-1. Mobile Devices
-Laptop Hardware
-Types of Displays (LCD, OLED)
-Laptop Components (Battery, RAM, Storage, Motherboards)
-Laptop Features (Function Keys, Docking Stations, Port Replicators)
-Mobile Device Configuration
-Network Connectivity (Wi-Fi, Bluetooth, Cellular)
-Email Configuration (IMAP, POP3, Exchange)
-Synchronization Methods (Cloud, Desktop Sync, Wireless)
-Mobile Device Accessories
-Touchscreens, Stylus, Docking Stations, External Keyboards
-2. Networking 
-Networking Concepts
-TCP/IP Basics (IPv4/IPv6, Subnet Masks, Gateways)
-Ports and Protocols (HTTP, HTTPS, FTP, SSH, DNS, DHCP)
-Common Network Services (NAT, VPN, Proxy Servers)
-Networking Hardware
-Routers, Switches, Modems, Access Points, Firewalls
-SOHO Networks (Small Office/Home Office)
-Cabling & Connectors
-Ethernet Standards (Cat5, Cat6, RJ45)
-Fiber Optic, Coaxial, Twisted Pair
-Wireless Networking
-Wi-Fi Standards (802.11 a/b/g/n/ac/ax)
-Encryption Types (WEP, WPA, WPA2, WPA3)
-IP Addressing
-DHCP vs. Static IP
-APIPA, Private/Public IP Ranges
-
-
-
-Note: Simple plain text
-
-
-
-
 Tech Stacks
 
 1. Systems Administrator
@@ -360,6 +292,65 @@ IDE: Visual Studio, Visual Studio Code
 ============================================================================================
 
 
+prompt
+
+okay so consider the following roles and tech stacks
+
+my goal is to go from an IT Tech support Intern and become a Junior C# Backend & Azure Cloud Developer
+
+things I'd like to cover along the way:
+1. Systems Administrator
+2. C# Backend
+3. Microsoft Software Developer
+4. Azure Cloud Dev
+7. Junior C# Backend & Azure Cloud Developer
+
+
+So i want to cover most, not all of the technologies covered by these various roles, 
+I know i wont cover them all but I'll cover the important and core ones for that role, 
+Or better yet you tell me which technologies to cover 
+in these tech stacks so that i can become a Junior C# Backend & Azure Cloud Developer
+
+
+And then once you're done with that do this:
+
+so you know my goal, give me a breakdown of all the topics i need to cover
+
+FOR EXAMPLE
+
+CompTIA A+ Core 1 (220-1101) - Focus on Hardware & Networking
+1. Mobile Devices
+Laptop Hardware
+Types of Displays (LCD, OLED)
+Laptop Components (Battery, RAM, Storage, Motherboards)
+Laptop Features (Function Keys, Docking Stations, Port Replicators)
+Mobile Device Configuration
+Network Connectivity (Wi-Fi, Bluetooth, Cellular)
+Email Configuration (IMAP, POP3, Exchange)
+Synchronization Methods (Cloud, Desktop Sync, Wireless)
+Mobile Device Accessories
+Touchscreens, Stylus, Docking Stations, External Keyboards
+2. Networking 
+Networking Concepts
+TCP/IP Basics (IPv4/IPv6, Subnet Masks, Gateways)
+Ports and Protocols (HTTP, HTTPS, FTP, SSH, DNS, DHCP)
+Common Network Services (NAT, VPN, Proxy Servers)
+Networking Hardware
+Routers, Switches, Modems, Access Points, Firewalls
+SOHO Networks (Small Office/Home Office)
+Cabling & Connectors
+Ethernet Standards (Cat5, Cat6, RJ45)
+Fiber Optic, Coaxial, Twisted Pair
+Wireless Networking
+Wi-Fi Standards (802.11 a/b/g/n/ac/ax)
+Encryption Types (WEP, WPA, WPA2, WPA3)
+IP Addressing
+DHCP vs. Static IP
+APIPA, Private/Public IP Ranges
+
+
+
+Note: Simple plain text
 
 
 
