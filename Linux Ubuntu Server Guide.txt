@@ -20,6 +20,15 @@ rm file       # Deletes a file
 rm -r dir     # Deletes a directory and its contents
 
 
+cat /etc/os-release	#Check OS Release Information
+lsb_release -a		#information about your Linux distribution
+			#Check with lsb_release (For Ubuntu/Debian)
+
+ls -la
+ - l (long listing format)
+ - a (all): includes hidden files,  those whose names begin with a dot (.)
+
+
 ---------------------------------------------
  - User Commands:
 
@@ -28,6 +37,11 @@ id             # Displays your user and group IDs
 adduser newuser  # Creates a new user
 passwd newuser   # Changes a user's password
 deluser newuser  # Deletes a user
+sudo usermod -aG sudo newusername	#Grant Administrative (sudo) Privileges
+cat /etc/passwd | grep newusername	#Check if the user was created successfully:
+
+cut -d: -f1 /etc/passwd			#List All Users on the System
+
 
 
 ---------------------------------------------
@@ -35,6 +49,23 @@ deluser newuser  # Deletes a user
 ls -l file   # View file permissions
 chmod 755 file  # Change file permissions
 chown user file  # Change file ownership
+
+
+---------------------------------------------
+Types of Permissions:
+Read (r): 4
+Write (w): 2
+Execute (x): 1
+
+rwxr-xr-- translates to 755
+
+
+chmod (Change File Permissions)
+
+
+
+chown (Change File Owner and Group)
+
 
 
 ---------------------------------------------
@@ -384,7 +415,6 @@ Networking knowledge is critical for **cloud deployments, security, and troubles
 3️⃣ **Master Networking** – Understand how cloud services communicate  
 
 📌 **Would you like more hands-on project ideas, GitHub repositories, or certification recommendations?** 😊
-
 
 
 
