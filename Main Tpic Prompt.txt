@@ -9,6 +9,14 @@ then once I've learned that enough at an intermediate level, then i learn Azure 
 
  and at the end of the day become a Junior C# Backend & Azure Cloud Developer
 
+path
+1. Systems Administrator
+2. C# Backend
+3. Microsoft Software Developer
+4. Azure Cloud Dev
+7. Junior C# Backend & Azure Cloud Developer
+
+
 So i want to cover most, not all of the technologies covered by these various roles, 
 I know i wont cover them all but I'll cover the important and core ones for that role, 
 Or better yet you tell me which technologies to cover 
