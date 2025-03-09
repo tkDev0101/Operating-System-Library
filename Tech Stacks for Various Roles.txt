@@ -11,52 +11,53 @@ Tech Stacks
 Goal -> Lucky No.7
 
 
----------------------------------------------
+----------------------------------------------------------------------------------------------
 7. Junior C# Backend & Azure Cloud Developer
 
-Language: C#
+1. Language: C#
 
-Frameworks:
-	- .NET Core
-	- ASP.NET Core (MVC & Web API)
+2. Frameworks:
+   • .NET Core
+   •  ASP.NET Core (MVC & Web API)
 
-Database:
-	- Microsoft SQL Server
-	- Azure SQL Database
+3. Database:
+   • Microsoft SQL Server
+   • Azure SQL Database
 
-ORM:
-	- Entity Framework Core
+4. ORM:
+   • Entity Framework Core
 
-Version Control:
-	- Git
-	- GitHub or Azure Repos
+5. Version Control:
+   • Git
+   • GitHub or Azure Repos
 
-Cloud:
-	- Microsoft Azure
+6. Cloud:
+   • Microsoft Azure
 
-DevOps & CI/CD:
-	- Azure DevOps
-	- GitHub Actions
+7. DevOps & CI/CD:
+   • Azure DevOps
+   • GitHub Actions
 
-Containerization:
-	- Docker
-	- Kubernetes (Azure Kubernetes Service - AKS)
+8. Containerization:
+   • Docker
+   • Kubernetes (Azure Kubernetes Service - AKS)
 
-Infrastructure as Code:
-	- PowerShell
-	- Azure CLI
-	- Terraform (Optional)
+9. Infrastructure as Code:
+   • PowerShell
+   • Azure CLI
+   • Terraform (Optional)
 
-Testing: 
-	- xUnit
-	- NUnit
+10. Testing: 
+   • xUnit
+   • NUnit
 
-IDE:
-	- Visual Studio
-	- Visual Studio Code
+11. IDE:
+   • Visual Studio
+   •  Visual Studio Code
 
 
----------------------------------------------
+
+============================================================================================
 1. Systems Administrator (SysAdmin) 
 
 1. Operating Systems
@@ -94,7 +95,8 @@ IDE:
    • IAM Roles & Policies (Azure, AWS)
 
 
----------------------------------------------
+
+============================================================================================
 2.  C# Backend Development
 
 Language: C#
@@ -162,8 +164,7 @@ Logging & Monitoring:
 
 
 
-
----------------------------------------------
+============================================================================================
 3. Microsoft Software Developer
 
 1. Programming Languages
@@ -186,113 +187,231 @@ Logging & Monitoring:
 
 4. Web Development
    • HTML, CSS, JavaScript 
-– Essential for front-end development.
    • TypeScript 
-– Used with Angular, React, or Blazor for modern web apps.
    • React.js, Angular, or Blazor 
-– Common front-end frameworks.
 
 5. Cloud & DevOps
-   • Microsoft Azure – Cloud computing platform with various services.
-   • Azure DevOps – CI/CD pipelines, version control, and project management.
-   • Docker & Kubernetes – Containerization and orchestration (often with Azure Kubernetes Service - AKS).
+   • Microsoft Azure 
+   • Azure DevOps 
+   • Docker & Kubernetes 
    • PowerShell & Azure CLI – Scripting for automation and infrastructure management.
 
 6. Tools & IDEs
-   • Visual Studio – The primary IDE for .NET development.
-   • Visual Studio Code – A lightweight, flexible code editor.
-   • SQL Server Management Studio (SSMS) – For database management.
-   • Postman/Swagger – For API testing and documentation.
-   • Git & Azure Repos – Version control.
+   • Visual Studio 
+   • Visual Studio Code 
+   • SQL Server Management Studio (SSMS) 
+   • Postman/Swagger 
+   • Git & Azure Repos 
 
 7. Other Microsoft Technologies
    • Power Platform – Power Apps, Power Automate, and Power BI.
    • Microsoft Office 365 & SharePoint – Often integrated with enterprise solutions.
-   • Would you like help setting up a development environment for .NET? 🚀
 
 
 
+============================================================================================
+4. Azure Cloud Developer Tech Stack
+
+1. Programming Languages
+   • C# (Primary language for Azure development)
+   • Python (For automation and scripting)
+   • JavaScript/TypeScript (For front-end and serverless functions)
+
+2. Cloud & Azure Services
+   • Azure App Services
+   • Azure Functions (Serverless)
+   • Azure Virtual Machines
+   • Azure Kubernetes Service (AKS)
+   • Azure Storage (Blob, Table, Queue, Files)
+   • Azure SQL Database & Cosmos DB
+   • Azure Logic Apps & Event Grid
+   • Azure API Management
+
+3. DevOps & CI/CD
+   • Azure DevOps
+   • Git & GitHub
+   • Docker & Kubernetes
+   • Terraform & Bicep (Infrastructure as Code)
+
+4. Security & Identity Management
+   • Azure Active Directory (Azure AD)
+   • Managed Identities
+   • Key Vault
+   • Microsoft Defender for Cloud
+
+5. Tools & Frameworks
+   • Visual Studio & Visual Studio Code
+   • .NET Core & ASP.NET for backend development
+   • REST APIs & GraphQL
+   • Postman for API testing
 
 ---------------------------------------------
 4. Azure Cloud Dev
 
-Azure Cloud Dev Tech Stack
-Compute: Virtual Machines (VMs), Azure Functions, Azure Container Instances
-Storage: Azure Blob Storage, Azure Files, Azure Table Storage
-Databases: Azure SQL Database, Cosmos DB, Azure Cache for Redis
-Networking & Security: Azure API Management, Azure Active Directory (AAD), Virtual Network (VNet), Azure DNS, Azure Firewall
-Serverless: Azure Functions, API Management, Azure Logic Apps, Event Grid
-IaC (Infrastructure as Code): Azure Bicep, Terraform, ARM Templates
-Containerization & Orchestration: Docker, Azure Kubernetes Service (AKS), Azure Container Apps
-CI/CD: Azure DevOps Pipelines, GitHub Actions, Jenkins
-Monitoring & Logging: Azure Monitor, Log Analytics, Application Insights, Grafana
-Automation & Config Management: Azure CLI, PowerShell, Ansible, Azure Automation
-Security & Compliance: Azure Defender, Azure Sentinel, Key Vault, Microsoft Entra ID
-Messaging & Event-Driven Systems: Azure Service Bus, Event Hubs, Azure Queue Storage
-Machine Learning & Data Analytics: Azure Machine Learning, Synapse Analytics, Power BI
-Hybrid & Enterprise Cloud: ExpressRoute, Azure Virtual WAN, Azure VPN Gateway
 
-Azure Cloud Developer Tech Stack
-1. Programming Languages
-C# (Primary language for Azure development)
-Python (For automation and scripting)
-JavaScript/TypeScript (For front-end and serverless functions)
-2. Cloud & Azure Services
-Azure App Services
-Azure Functions (Serverless)
-Azure Virtual Machines
-Azure Kubernetes Service (AKS)
-Azure Storage (Blob, Table, Queue, Files)
-Azure SQL Database & Cosmos DB
-Azure Logic Apps & Event Grid
-Azure API Management
-3. DevOps & CI/CD
-Azure DevOps
-Git & GitHub
-Docker & Kubernetes
-Terraform & Bicep (Infrastructure as Code)
-4. Security & Identity Management
-Azure Active Directory (Azure AD)
-Managed Identities
-Key Vault
-Microsoft Defender for Cloud
-5. Tools & Frameworks
-Visual Studio & Visual Studio Code
-.NET Core & ASP.NET for backend development
-REST APIs & GraphQL
-Postman for API testing
+1. Compute: Virtual Machines (VMs),
+   • Azure Functions,
+   • Azure Container Instances
+
+2. Storage:
+   • Azure Blob Storage,
+   • Azure Files,
+   • Azure Table Storage
+
+3. Databases:
+   • Azure SQL Database,
+   • Cosmos DB,
+   • Azure Cache for Redis
+
+4. Networking & Security:
+   • Azure API Management,
+   • Azure Active Directory (AAD),
+   • Virtual Network (VNet),
+   • Azure DNS, Azure Firewall
+
+5. Serverless:
+   • Azure Functions,
+   • API Management,
+   • Azure Logic Apps,
+   • Event Grid
+
+6. IaC (Infrastructure as Code):
+   • Azure Bicep,
+   • Terraform,
+   • ARM Templates
+
+7. Containerization & Orchestration:
+   • Docker,
+   • Azure Kubernetes Service (AKS),
+   • Azure Container Apps
+
+8. CI/CD:
+   • Azure DevOps Pipelines,
+   • GitHub Actions,
+   • Jenkins
+
+9. Monitoring & Logging:
+   • Azure Monitor,
+   • Log Analytics,
+   • Application Insights,
+   • Grafana
+
+10. Automation & Config Management:
+   • Azure CLI,
+   • PowerShell, Ansible,
+   • Azure Automation
+
+11. Security & Compliance:
+   • Azure Defender,
+   • Azure Sentinel,
+   • Key Vault,
+   • Microsoft Entra ID
+
+12. Messaging & Event-Driven Systems:
+   • Azure Service Bus, Event Hubs,
+   • Azure Queue Storage
+
+13. Machine Learning & Data Analytics:
+   • Azure Machine Learning,
+   • Synapse Analytics,
+   • Power BI
+
+14. Hybrid & Enterprise Cloud:
+   • ExpressRoute,
+   • Azure Virtual WAN,
+   • Azure VPN Gateway
 
 
 
-
----------------------------------------------
+============================================================================================
 5. AWS Cloud Dev 
 
-AWS Cloud Dev Tech Stack
-Compute: EC2, Lambda, Fargate
-Storage: S3, DynamoDB, EBS
-Databases: RDS (PostgreSQL/MySQL), Aurora, ElastiCache
-Networking & Security: API Gateway, Cognito, IAM, VPC, Route 53, WAF
-Serverless: Lambda, API Gateway, AppSync, Step Functions
-IaC (Infrastructure as Code): AWS CDK (Python/TypeScript), Terraform, CloudFormation
-Containerization & Orchestration: Docker, EKS, ECS, Fargate, Kubernetes
-CI/CD: CodePipeline, CodeBuild, GitHub Actions
-Monitoring & Logging: CloudWatch, X-Ray, Prometheus, Grafana
-Automation & Config Management: AWS CLI, Boto3, Systems Manager, Ansible
-Security & Compliance: IAM, WAF, KMS, Shield, Security Hub
-Messaging & Event-Driven Systems: SNS, SQS, Kinesis, EventBridge
-Machine Learning & Data Analytics: SageMaker, Glue, Athena, QuickSight
-Hybrid & Enterprise Cloud: Direct Connect, Transit Gateway, VPN
+1. Compute
+   • EC2
+   • Lambda
+   • Fargate
+
+2. Storage
+   • S3
+   • DynamoDB
+   • EBS
+
+3. Databases
+   • RDS (PostgreSQL/MySQL)
+   • Aurora
+   • ElastiCache
+
+4. Networking & Security
+   • API Gateway
+   • Cognito
+   • IAM
+   • VPC
+   • Route 53
+   • WAF
+
+5. Serverless
+   • Lambda
+   • API Gateway
+   • AppSync
+   • Step Functions
+
+6. Infrastructure as Code (IaC)
+• AWS CDK (Python/TypeScript)
+• Terraform
+• CloudFormation
+
+7. Containerization & Orchestration
+• Docker
+• EKS
+• ECS
+• Fargate
+• Kubernetes
+
+8. CI/CD (Continuous Integration & Deployment)
+• CodePipeline
+• CodeBuild
+• GitHub Actions
+
+9. Monitoring & Logging
+• CloudWatch
+• X-Ray
+• Prometheus
+• Grafana
+
+10. Automation & Config Management
+• AWS CLI
+• Boto3
+• Systems Manager
+• Ansible
+
+11. Security & Compliance
+• IAM
+• WAF
+• KMS
+• Shield
+• Security Hub
+
+12. Messaging & Event-Driven Systems
+• SNS
+• SQS
+• Kinesis
+• EventBridge
+
+13. Machine Learning & Data Analytics
+   • SageMaker
+   • Glue
+   • Athena
+   • QuickSight
+
+14. Hybrid & Enterprise Cloud
+   • Direct Connect
+   • Transit Gateway
+   • VPN
 
 
 
-
-
----------------------------------------------
-6. Python Backend 
-
-
-Tech Stack for Python Backend Development
+============================================================================================
+6. Python Backend Development
 
  Languages
    • Core: Python.
@@ -322,21 +441,51 @@ Others
 
 
 
-
----------------------------------------------
+============================================================================================
 7. Junior C# Backend & Azure Cloud Developer
 
-Programming Language: C#
-Frameworks: .NET Core, ASP.NET Core (MVC & Web API)
-Database: Microsoft SQL Server, Azure SQL Database
-ORM: Entity Framework Core
-Version Control: Git, GitHub or Azure Repos
-Cloud: Microsoft Azure
-DevOps & CI/CD: Azure DevOps, GitHub Actions
-Containerization: Docker, Kubernetes (Azure Kubernetes Service - AKS)
-Infrastructure as Code: PowerShell, Azure CLI, Terraform (Optional)
-Testing: xUnit, NUnit
-IDE: Visual Studio, Visual Studio Code
+
+1. Programming Language: C#
+
+2. Frameworks:
+   • .NET Core
+   •  ASP.NET Core (MVC & Web API)
+
+3. Database:
+   • Microsoft SQL Server
+   • Azure SQL Database
+
+4. ORM:
+   • Entity Framework Core
+
+5. Version Control:
+   • Git
+   • GitHub or Azure Repos
+
+6. Cloud:
+   • Microsoft Azure
+
+7. DevOps & CI/CD:
+   • Azure DevOps
+   • GitHub Actions
+
+8. Containerization:
+   • Docker
+   • Kubernetes (Azure Kubernetes Service - AKS)
+
+9. Infrastructure as Code:
+   • PowerShell
+   • Azure CLI
+   • Terraform (Optional)
+
+10. Testing: 
+   • xUnit
+   • NUnit
+
+11. IDE:
+   • Visual Studio
+   •  Visual Studio Code
+
 
 
 
