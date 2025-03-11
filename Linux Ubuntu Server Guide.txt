@@ -4,9 +4,24 @@ Linux Ubuntu Server && Linux Ubuntu Guide
 ========================================================================================
 Linux Ubuntu Server Guide
 
-About
+	About Linux
+ - Linux is an open-source operating system kernel that powers many operating systems (distros).
+
+ - It is widely used for servers, cloud computing, cybersecurity, networking, and personal computing.
 
 
+	About Ubuntu
+ - Ubuntu is one of the most beginner-friendly Linux distributions (distros) based on Debian.
+
+It is designed for ease of use, stability, and security.
+
+Ubuntu comes in different versions:
+
+Ubuntu Desktop – For personal use with a graphical interface.
+
+Ubuntu Server – For running servers without a graphical interface.
+
+Ubuntu Core – A lightweight version for IoT devices.
 
 ---------------------------------------------
  - Here are some essential commands to navigate the system:
