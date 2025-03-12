@@ -10,13 +10,6 @@
 
 
 
-Mthokozisi_tk2
-tkdev-02
-
-
-
-
-
 
 
 Below is a comprehensive, plain‐text guide that explains the “how’s” of GitHub Team Collaboration. This guide is designed to take you from a beginner to a professional collaborator. It covers everything step by step—from setting up your repository to advanced configurations for team workflows. You can use these notes as a reference and practice guide. Let’s dive in!
